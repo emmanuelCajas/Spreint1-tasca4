@@ -17,7 +17,7 @@ public class DniTest {
 	@Parameters
 	public static Iterable<Object[]> datosPrueba() {
 		return Arrays.asList(new Object[][]{
-			{"12345678Z",12345678},
+			{"12345678F",12345678},
 			{"87654321X",87654321},
 			{"12345671F",12345671},
 			{"76543214L",76543214},
@@ -53,3 +53,5 @@ public class DniTest {
 	}
 	
 }
+
+//

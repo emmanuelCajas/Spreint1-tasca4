@@ -16,23 +16,23 @@ public class MesesTest {
 		mes = new Meses();
 	}
 	
-	@Test
-	public void suma() {
-		assertEquals(2, 1+1);
-	}
 	
 	@Test
-	public void testCargarArray(){		
+	public void verificaPosiciones(){	
 		
 		assertEquals(12,mes.cargarArray().size());
-		
-		assertNotNull(mes.cargarArray().isEmpty());	
-		
-		assertEquals("Agosto", mes.cargarArray().get(7));
-		
-		
+
 	}
 	
+	@Test
+	public void verificaNoEsNula() {
+		assertNotNull(mes.cargarArray().isEmpty());	
+	}
+	
+	@Test
+	public void verificaPosicionMes() {
+		assertEquals("Agosto", mes.cargarArray().get(7));
+	}
 	
 
 }

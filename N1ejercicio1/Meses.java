@@ -6,11 +6,6 @@ public class Meses {
 	
 		public ArrayList<String> meses; 
 		
-		
-		public int sumar(int a, int b) {
-			return a + b;
-		}
-		
 		public ArrayList<String> cargarArray() {
 			meses = new ArrayList<String>();
 			

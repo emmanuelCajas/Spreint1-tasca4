@@ -14,10 +14,6 @@ public class ExcepcionesTest {
 		excepcion = new Excepciones();
 	}
 	
-	@Test
-	public void sumarTest() {
-		assertEquals(2,excepcion.sumar(1, 1) );
-	}
 	
 	@Test(expected = ArrayIndexOutOfBoundsException.class)
 	public void lanzarexcepcionTest() {
